@@ -1,0 +1,29 @@
+html
+{
+    margin: 0 !important;
+}
+
+#popup
+{
+    width: 392px;
+    height: 500px;
+}
+
+#popup-head
+{
+    background-color: #1A73B9;
+    width: 100%;
+    height: 83px;
+}
+
+#popup-body
+{
+    height: 389px;
+}
+
+#popup-footer
+{
+    background-color:#1A73B9;
+    height: 28px;
+}
+

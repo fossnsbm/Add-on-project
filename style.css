@@ -7,6 +7,7 @@ body {
 #popup {
   width: 392px;
   height: 500px;
+  overflow-x: hidden;
 }
 
 #popup-head {
@@ -21,6 +22,7 @@ body {
 
 #popup-body {
   height: 389px;
+  width: 100%;
   
 }
 
@@ -49,7 +51,8 @@ body {
 }
  .vectorshape{
    z-index: -1;
-   margin-top: 10px;
+   margin-top: 5px;
+   width: 100%;
  }
 
  .body-image{
@@ -69,69 +72,79 @@ body {
   font-weight: bold;
   font-size: 500;
   margin-top: -280px;
-  margin-right: -30px;
+  margin-right: 0px;
+  margin-left: -30px;
  }
 
  .buttonsone{
-   width: 120px;
-   height: 30px;
-   background-color: #1a73b9;
- 
+   width: 130px;
+   height: 40px;
+   background-color: #39AA49;
+   border-radius: 0px 10px 0px 10px;
    margin-bottom: 10px;
-   margin-left: 70px;
+   margin-left: 50px;
    z-index: 10px;
+   box-shadow:5px 5px 10px rgba(0, 0, 0, 0.342);
+
  }
 
  .buttonstwo{
-  width: 120px;
-  height: 30px;
-  background-color: #1a73b9;
-
+  width: 130px;
+  height: 40px;
+  background-color: #39AA49;
+  border-radius: 0px 10px 0px 10px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 30px;
   z-index: 10px;
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.342);
 }
 
 .buttonsthree{
-  width: 120px;
-  height: 30px;
-  background-color: #1a73b9;
+  width: 130px;
+  height: 40px;
+  background-color: #39AA49;
   margin-top: 40px;
  margin-bottom: 40px;
-  margin-left: 70px;
+  margin-left: 50px;
   z-index: 10px;
+  border-radius: 0px 10px 0px 10px;
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.342);
 
 }
 
 
 .buttonsfour{
-  width: 120px;
-  height: 30px;
-  background-color: #1a73b9;
+  width: 130px;
+  height: 40px;
+  background-color: #39AA49;
   margin-top: 40px;
  margin-bottom: 40px;
-  margin-left: 50px;
+  margin-left: 30px;
   z-index: 10px;
+  border-radius: 0px 10px 0px 10px;
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.342);
 
 }
 
 
 .buttonsfive{
-  width: 120px;
-  height: 30px;
-  background-color: #1a73b9;
+  width: 130px;
+  height: 40px;
+  background-color: #39AA49;
   margin-top: 20px;
  margin-bottom: 40px;
-  margin-left: 150px;
+  margin-left: 130px;
   z-index: 10px;
-
+  border-radius: 0px 10px 0px 10px;
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.342);
 }
 
 
 P{
 
  color: white;
- padding-left: 60px;
+ padding-left: 10px;
+ display: inline;
 
 }
 
@@ -141,3 +154,19 @@ P{
 
 }
 
+.logo
+{
+  margin-bottom: -30px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.btnlogo
+{
+  display: inline;
+  width: 40px;
+  height: 40px;
+}
+a:hover{
+  text-decoration:none;
+}

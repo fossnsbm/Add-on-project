@@ -5,8 +5,8 @@ body {
 }
 
 #popup {
-  width: 392px;
-  height: 500px;
+  width: 392px !important;
+  height: 500px !important;
   overflow-x: hidden;
 }
 
@@ -52,6 +52,7 @@ body {
  .vectorshape{
    z-index: -1;
    margin-top: 5px;
+   margin-bottom: 0 !important;
    width: 100%;
  }
 
@@ -65,6 +66,7 @@ body {
  .sec-row{
   width: 100% !important;
   margin-top: -60px;
+  padding-bottom: 0 i !important;
  }
  
  .bodytext{

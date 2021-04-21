@@ -15,7 +15,7 @@ body {
   background-color: #1a73b9;
   width: 100%;
   height: 83px;
-  box-shadow: 0px 1px 10px 0 rgba(0, 0, 0, 0.548);
+  box-shadow: 0px 1px 10px 0 rgba(0, 0, 0, 0.349);
  
   
 }
@@ -47,8 +47,9 @@ body {
   padding-left: 15px;
   color: white;
   font-weight: bold;
-  font-size: 300;
+  font-size: small;
 }
+
  .vectorshape{
    z-index: -1;
    margin-top: 5px;
@@ -84,10 +85,11 @@ body {
    background-color: #39AA49;
    border-radius: 0px 10px 0px 10px;
    margin-bottom: 10px;
-   margin-left: 50px;
+   margin-left: 60px;
    z-index: 10px;
-   box-shadow:5px 5px 10px rgba(0, 0, 0, 0.342);
-
+   box-shadow:5px 5px 10px rgba(0, 0, 0, 0.247);
+   border: 0px;
+   transition: 0.8s;
  }
 
  .buttonstwo{
@@ -98,7 +100,8 @@ body {
   margin-bottom: 10px;
   margin-left: 30px;
   z-index: 10px;
-  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.342);
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.247);
+  transition: 0.8s;
 }
 
 .buttonsthree{
@@ -107,13 +110,12 @@ body {
   background-color: #39AA49;
   margin-top: 10px;
  margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 60px;
   z-index: 10px;
   border-radius: 0px 10px 0px 10px;
-  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.342);
-
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.247);
+  transition: 0.8s;
 }
-
 
 .buttonsfour{
   width: 130px;
@@ -124,8 +126,8 @@ body {
   margin-left: 30px;
   z-index: 10px;
   border-radius: 0px 10px 0px 10px;
-  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.342);
-
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.247);
+  transition: 0.8s;
 }
 
 
@@ -135,12 +137,38 @@ body {
   background-color: #39AA49;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 130px;
+  margin-left: 140px;
   z-index: 10px;
   border-radius: 0px 10px 0px 10px;
-  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.342);
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.247);
+  transition: 0.8s;
 }
 
+
+.buttonsfive:hover{
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.384);
+
+}
+
+.buttonsfour:hover{
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.384);
+
+}
+
+.buttonsthree:hover{
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.384);
+
+}
+
+.buttonstwo:hover{
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.384);
+
+}
+
+.buttonsone:hover{
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.384);
+
+}
 
 P{
 
@@ -171,12 +199,14 @@ P{
   border-radius: 0px 10px 0px 10px;
 }
 a:hover{
-  text-decoration:none;
+  text-decoration:none !important;
 }
+
 
 .btn-row{
   margin-top: -90px;
 }
-.btn-an{
-  text-decoration: none;
+
+.footer-txt{
+  font-size: small;
 }
